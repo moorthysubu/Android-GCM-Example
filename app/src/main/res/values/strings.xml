@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GCM- Example</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="msg_gcm_registered">gcm registered</string>
+    <string name="gcm_id_key">gcmId</string>
+    <string name="sentTokenToServer">sentTokenToServer</string>
+</resources>
