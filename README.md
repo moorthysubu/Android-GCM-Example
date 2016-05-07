@@ -11,16 +11,16 @@ Link : https://developers.google.com/cloud-messaging/android/client#get-config
 
 click on get configuration file from developer console.
 
-#####add "google-services.json" file in app folder.
+add "google-services.json" file in app folder.
 
-add below line in top level
-#####classpath 'com.google.gms:google-services:2.0.0-alpha5'
+#####add below line in top level
+classpath 'com.google.gms:google-services:2.0.0-alpha5'
 
-add below line in app level dependencies
-#####compile 'com.google.android.gms:play-services-gcm:8.4.0'
+#####add below line in app level dependencies
+compile 'com.google.android.gms:play-services-gcm:8.4.0'
 
-then add plugin app gradle:
-#####apply plugin: 'com.google.gms.google-services'
+#####then add plugin app gradle:
+apply plugin: 'com.google.gms.google-services'
 
 add gcm package into your project.
 
